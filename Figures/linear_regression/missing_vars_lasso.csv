@@ -1,0 +1,103 @@
+Variable name,P-value correlation,# Missing,Variable description
+p_h_income::_3000-4999 CHF,0.005556493753923119,989,Monthly household income
+sleep_22fD,0.006501684169805116,906,Number of minutes spent sleeping during the day-Armband
+p_h_income::_-9,0.014296054936330361,989,Monthly household income
+origin_final::_1.0,0.03759262069588793,1084,"Origin of the participant (1=European, 2-4=Other, -9=Unknown)"
+f_meat_24n::_5 days/week,0.03803538769857319,758,"In general, how many days per week do you eat meat or delicatessen? "
+f_fruit::_Less than 1 portion/day,0.05057575024021615,761,How many fruit portions do you eat on a daily basis?
+sleep_duration,0.0551322534999421,908,Average number of hours of sleep per night
+orig_regio::_CH,0.055885044970720534,905,Origin related - Questionnaire
+orig_regio::_XK,0.058592284428229426,905,Origin related - Questionnaire
+orig_regio::_CD,0.0647379528222317,905,Origin related - Questionnaire
+fin_diff::_No and this has never happened,0.07432147818143418,899,Financial difficulties
+f_meat_24n::_4 days/week,0.09573414969898787,758,"In general, how many days per week do you eat meat or delicatessen? "
+p_h_income::_>13000 CHF,0.10547057809414442,989,Monthly household income
+orig_regio::_BE,0.10558635234897931,905,Origin related - Questionnaire
+phys_activity_22fN,0.12378146871335761,915,Minutes physically active day-Armband
+f_veg::_3-4 portions per day,0.1262575019750642,763,How many vegetable portions do you eat on a daily basis?
+f_fish::_3 days/week,0.12948030378840145,759,"In general, how many days per week do you eat fish? "
+orig_regio::_CZ,0.13179199559485633,905,Origin related - Questionnaire
+"educat_code::_Superior education (not University), more than 3 years",0.13305550231996136,54,Highest attained education
+f_fruit::_1-2 portions/day,0.16067408571668082,761,How many fruit portions do you eat on a daily basis?
+f_meat_24n::_Rarely,0.16187492419579713,758,"In general, how many days per week do you eat meat or delicatessen? "
+origin_final::_3.0,0.16909291611000815,1084,"Origin of the participant (1=European, 2-4=Other, -9=Unknown)"
+orig_regio::_AG,0.1746798091643797,905,Origin related - Questionnaire
+phys_activity_t,0.1871467150605709,905,Total number of minutes physically active-Armband
+f_fish::_Rarely,0.18969454168387115,759,"In general, how many days per week do you eat fish? "
+educat_code::_No diploma,0.19269571587655307,54,Highest attained education
+p_act3::_No,0.19891570925123153,700,"Lev. phys.act at work - Pushing wheelbarrow? (Y=1,N=2)"
+orig_regio::_US,0.19918095719244228,905,Origin related - Questionnaire
+f_fish::_1 day/week,0.21663572233118172,759,"In general, how many days per week do you eat fish? "
+edu_3cat::_Low,0.21683192441594087,54,"Highest attained education (1=High,2=Middle,3=Low)"
+orig_regio::_NL,0.22536650554838347,905,Origin related - Questionnaire
+e_now::_No,0.23853379778263334,0,"Present consumption of alcohol  (Y=1,N=2) "
+orig_regio::_DK,0.24859486558571894,905,Origin related - Questionnaire
+p_act1::_Yes,0.2531435041368823,613,"Lev. phys.act at work - Sitting? (Y=1,N=2)"
+"educat_code::_Secondary education - vocational, superior level (superior maturity)",0.2549288529086472,54,Highest attained education
+"educat_code::_Secondary education - vocational, lower level (apprenticeship - CFC)",0.25560761553220535,54,Highest attained education
+sleep_t,0.2564436827201369,905,Total number of minutes spent sleeping-Armband
+p_act2::_No,0.2583506924428689,696,"Lev. phys.act at work - Driving a car? (Y=1,N=2)"
+orig_regio::_RS,0.26035267654611005,905,Origin related - Questionnaire
+edu_3cat::_Middle,0.2604623278609672,54,"Highest attained education (1=High,2=Middle,3=Low)"
+p_act4::_No,0.2676619130483474,724,"Lev. phys.act at work - Loading lorry without mechanical help? (Y=1,N=2)"
+"educat_code::_University, ETH",0.27188882731215513,54,Highest attained education
+f_meat_24n::_6 days/week,0.2740467461638369,758,"In general, how many days per week do you eat meat or delicatessen? "
+f_fish::_4 days/week,0.30170265902828763,759,"In general, how many days per week do you eat fish? "
+f_fruit::_Never,0.3159144476986188,761,How many fruit portions do you eat on a daily basis?
+p_act1::_No,0.32163207145879985,613,"Lev. phys.act at work - Sitting? (Y=1,N=2)"
+f_fruit::_>=5 portions/day,0.32808712922670824,761,How many fruit portions do you eat on a daily basis?
+f_veg::_1-2 portions/day,0.33415297358501095,763,How many vegetable portions do you eat on a daily basis?
+inc_hh,0.341977642001145,1053,Income adjusted for household composition (1u=1000CHF - Figini-frm.8)
+p_act4::_Yes,0.3583375253042337,724,"Lev. phys.act at work - Loading lorry without mechanical help? (Y=1,N=2)"
+orig_regio::_FR,0.38320247081570347,905,Origin related - Questionnaire
+d_diet::_No,0.39517101352840256,1615,"Are you following a diet and/or avoiding sweet foodstuffs (Y=1,N=0)?"
+origin_final::_4.0,0.40254251226678683,1084,"Origin of the participant (1=European, 2-4=Other, -9=Unknown)"
+orig_regio::_IE,0.4144787111381234,905,Origin related - Questionnaire
+origin_final::_2.0,0.41543513285648914,1084,"Origin of the participant (1=European, 2-4=Other, -9=Unknown)"
+"fin_diff::_Yes, for several years",0.4413678424452806,899,Financial difficulties
+d_diet::_Yes,0.4617309057450204,1615,"Are you following a diet and/or avoiding sweet foodstuffs (Y=1,N=0)?"
+e_now::_Yes,0.4660949219242948,0,"Present consumption of alcohol  (Y=1,N=2) "
+orig_regio::_GB,0.46796706724226733,905,Origin related - Questionnaire
+p_act2::_Yes,0.46996352075285885,696,"Lev. phys.act at work - Driving a car? (Y=1,N=2)"
+orig_regio::_SE,0.4728013161269474,905,Origin related - Questionnaire
+orig_regio::_HU,0.47477505670327436,905,Origin related - Questionnaire
+orig_regio::_ES,0.5051473134761555,905,Origin related - Questionnaire
+orig_regio::_IT,0.5055194827877612,905,Origin related - Questionnaire
+"educat_code::_Superior education (not University), 3 years or less",0.5165620367515774,54,Highest attained education
+orig_regio::_DZ,0.5284076206399657,905,Origin related - Questionnaire
+educat_code::_Mandatory school (certificate of achieved studies),0.548717166850256,54,Highest attained education
+f_fish::_2 days/week,0.5504650190858195,759,"In general, how many days per week do you eat fish? "
+orig_regio::_BR,0.5771422332215316,905,Origin related - Questionnaire
+"educat_code::_Secondary education, superior level (maturity)",0.580794113148486,54,Highest attained education
+"educat_code::_Secondary education - vocational (general), lower level (trade school, diploma)",0.603703302592181,54,Highest attained education
+f_meat_24n::_3 days/week,0.6072292666819016,758,"In general, how many days per week do you eat meat or delicatessen? "
+f_veg::_Less than 1 portion/day,0.6202371938268854,763,How many vegetable portions do you eat on a daily basis?
+f_meat_24n::_1 day/week,0.625152738564611,758,"In general, how many days per week do you eat meat or delicatessen? "
+f_meat_24n::_Never,0.6256264985956366,758,"In general, how many days per week do you eat meat or delicatessen? "
+f_veg::_>=5 portions/day,0.6267533199993542,763,How many vegetable portions do you eat on a daily basis?
+f_fruit::_3-4 portions per day,0.6446341575071055,761,How many fruit portions do you eat on a daily basis?
+sc_now::_Yes,0.6490207091094391,11,"School now (Y=1,N=2) "
+p_act3::_Yes,0.6838635524543897,700,"Lev. phys.act at work - Pushing wheelbarrow? (Y=1,N=2)"
+orig_regio::_FI,0.6883925207922106,905,Origin related - Questionnaire
+f_meat_24n::_7 days/week,0.7000096465591465,758,"In general, how many days per week do you eat meat or delicatessen? "
+orig_regio::_DE,0.7014933030993058,905,Origin related - Questionnaire
+p_h_income::_7000-9499 CHF,0.7077434949725615,989,Monthly household income
+orig_regio::_RO,0.7230730961657539,905,Origin related - Questionnaire
+p_h_income::_9500-13000 CHF,0.739810994852057,989,Monthly household income
+e_p_past::_Yes,0.7450678672970534,193,Consumption of alcohol in the past
+f_fish::_5 days/week,0.7834700191043531,759,"In general, how many days per week do you eat fish? "
+p_h_income::_<2999 CHF,0.7915635907863623,989,Monthly household income
+"fin_diff::_Yes, since less than a year",0.815034845932908,899,Financial difficulties
+phys_activity_22fD,0.824796763274944,906,Minutes physically active day-Armband
+f_veg::_Never,0.837565479557267,763,How many vegetable portions do you eat on a daily basis?
+e_p_past::_No,0.8616615011776223,193,Consumption of alcohol in the past
+f_meat_24n::_2 days/week,0.8678616183958084,758,"In general, how many days per week do you eat meat or delicatessen? "
+edu_3cat::_High,0.8699480936554571,54,"Highest attained education (1=High,2=Middle,3=Low)"
+p_h_income::_5000-6999 CHF,0.8744555176426325,989,Monthly household income
+waistc1,0.896482579795713,0,Waist circumference (cm)
+"fin_diff::_No, but this has happened in the past",0.9268137153200202,899,Financial difficulties
+f_fish::_6 days/week,0.9273556252782682,759,"In general, how many days per week do you eat fish? "
+f_fish::_Never,0.9535703790018748,759,"In general, how many days per week do you eat fish? "
+orig_regio::_PT,0.9632162452941527,905,Origin related - Questionnaire
+sc_now::_No,0.9677468876701818,11,"School now (Y=1,N=2) "
+sleep_22fN,0.9918558730706273,915,Number of minutes spent sleeping during the night-Armband
