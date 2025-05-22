@@ -303,8 +303,11 @@ def get_predictors(coefficients, kernels):
 
 
 def preprocess(
-    X_train, X_test, categorical_cols, numerical_cols, labels_df, kernels, inter_col
+    X_train, X_test, categorical_cols, numerical_cols, labels_df, kernels, kernels_for, inter_col
 ):
+    if kernels_for is None:
+        kernels_for = numerical_cols
+
     # One-hot encoding of categorical variables
     # (one category less [drop_first=True] to keep full matrix rank)
     for col in categorical_cols:
@@ -340,19 +343,19 @@ def preprocess(
     if kernels:
         for k_name, k_fun in kernels.items():
             X_train_kernel = (
-                X_train[numerical_cols]
+                X_train[kernels_for]
                 .apply(k_fun)
                 .rename(columns=lambda col: f"{col}_{k_name}")
             )
             X_train = pd.concat([X_train, X_train_kernel], axis=1)
             X_test_kernel = (
-                X_test[numerical_cols]
+                X_test[kernels_for]
                 .apply(k_fun)
                 .rename(columns=lambda col: f"{col}_{k_name}")
             )
             X_test = pd.concat([X_test, X_test_kernel], axis=1)
             new_numerical_cols.extend(list(X_train_kernel.columns))
-            for col in numerical_cols:
+            for col in kernels_for:
                 labels_df.loc[col + "_" + k_name] = labels_df.loc[col] + " " + k_name
 
     # Standardize
@@ -370,6 +373,7 @@ def test_model(
     cat_cols,
     labels_df,
     kernels=None,
+    kernels_for=None,
     inter_col=None,
     norm_out=True,
     model_fn=glmm_lasso,
@@ -405,6 +409,7 @@ def test_model(
             list(numerical_cols),
             labels_df,
             kernels,
+            kernels_for,
             inter_col,
         )
         # Prepare input data
@@ -449,6 +454,7 @@ def test_model(
         list(numerical_cols),
         labels_df,
         kernels,
+        kernels_for,
         inter_col,
     )
     data_train = X_train.copy()
@@ -490,6 +496,7 @@ def get_models_df_preds(
     cat_cols,
     labels_df,
     kernels=None,
+    kernels_for=None,
     inter_col=None,
     norm_out=False,
     model_fn=glmm_lasso,
@@ -517,6 +524,7 @@ def get_models_df_preds(
                 cat_cols,
                 labels_df,
                 kernels=kernels,
+                kernels_for=kernels_for,
                 inter_col=inter_col,
                 norm_out=norm_out,
                 model_fn=model_fn,
